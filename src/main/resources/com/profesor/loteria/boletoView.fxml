@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="453.0" prefWidth="611.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.profesor.loteria.BoletoController">
+    <children>
+        <ImageView fitHeight="422.0" fitWidth="601.0" layoutX="3.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/boleto.jpg" />
+            </image>
+        </ImageView>
+        <TextField fx:id="field5" alignment="CENTER" editable="false" focusTraversable="false" layoutX="254.0" layoutY="108.0" prefHeight="51.0" prefWidth="51.0" promptText="0" style="-fx-border-color: #3b8dcb; -fx-border-width: 3;">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="field4" alignment="CENTER" editable="false" focusTraversable="false" layoutX="309.0" layoutY="108.0" prefHeight="51.0" prefWidth="51.0" promptText="0" style="-fx-border-color: #3b8dcb; -fx-border-width: 3;">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="field3" alignment="CENTER" editable="false" focusTraversable="false" layoutX="364.0" layoutY="108.0" prefHeight="51.0" prefWidth="51.0" promptText="0" style="-fx-border-color: #3b8dcb; -fx-border-width: 3;">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="field2" alignment="CENTER" editable="false" focusTraversable="false" layoutX="418.0" layoutY="108.0" prefHeight="51.0" prefWidth="51.0" promptText="0" style="-fx-border-color: #3b8dcb; -fx-border-width: 3;">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="field1" alignment="CENTER" editable="false" focusTraversable="false" layoutX="472.0" layoutY="108.0" prefHeight="51.0" prefWidth="51.0" promptText="0" style="-fx-border-color: #3b8dcb; -fx-border-width: 3;">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <Text layoutX="55.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El número premiado ha sido el  ..." wrappingWidth="555.43359375">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Button layoutX="61.0" layoutY="383.0" mnemonicParsing="false" onAction="#handlerCerrarVentana" prefHeight="44.0" prefWidth="482.0" text="Cerrar">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+
+    </children>
+</AnchorPane>
